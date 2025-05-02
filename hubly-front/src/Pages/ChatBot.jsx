@@ -1,5 +1,5 @@
 import Sidebar from "../Components/Sidebar";
-import "../styles/chatBot.css";
+import "../styles/chatbot.css";
 import chaticon from "../assets/Ellipse 5.png";
 import { IoIosSend } from "react-icons/io";
 import { useState } from "react";
