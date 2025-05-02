@@ -2,7 +2,7 @@ import react from "react";
 import { login } from "../services";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import frame from "../assets/frame.png";
+import frame from "../assets/Frame.png";
 import { toast } from "react-toastify";
 export default function Login() {
   const navigate = useNavigate();
@@ -156,13 +156,16 @@ export default function Login() {
         style={{
           height: "100vh",
           width: "40vw",
-          
         }}
-      ><img src={frame}  style={{
-        height: "100vh",
-        width: "40vw",
-        
-      }}></img></div>
+      >
+        <img
+          src={frame}
+          style={{
+            height: "100vh",
+            width: "40vw",
+          }}
+        ></img>
+      </div>
     </div>
   );
 }
