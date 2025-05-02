@@ -1,0 +1,16 @@
+.allstatus{
+    height: 0px;
+    width: 80vw;
+    line-height: 70px;
+}
+.status{
+    width:5vw;
+    height:2vh;
+    
+}
+.statusactive{
+    width:5vw;
+    height:2vh;
+    border-bottom: 2px solid #184E7F;
+    line-height: 10px;
+}

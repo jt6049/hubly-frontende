@@ -1,0 +1,25 @@
+.heading{
+    color: #30404D;
+    width:40vw;
+    height: 10vh;
+    margin:15vh  0 0 5vw; 
+    
+    border-bottom: none;
+}
+.para{
+    color: #30404D;
+    width:40vw;
+    height: 10vh;
+    margin:1vh  0 0 5vw; 
+
+}
+.getstarted{
+    text-align: center;
+    width:8vw;
+    height: 7vh;
+    background-color: #184E7F;
+    border-radius: 10px;
+    margin:1vh  0 0 5vw; 
+    line-height: 7vh;
+    color: white    ;
+}

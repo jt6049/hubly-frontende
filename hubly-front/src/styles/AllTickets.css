@@ -1,0 +1,52 @@
+.parent{
+    margin:2vh 0.5vw;
+    line-height: 20px;
+}
+
+
+.dot{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: #F8A534;
+    margin-left: 10px;
+    display:inline-block;
+    margin-right: 10px;
+
+    
+
+}
+h4{
+    display: inline-block;
+   margin-bottom: 11px;
+ 
+}
+.posted{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    
+    
+}
+.messagell{
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px; 
+    color:black;
+}
+.time{
+    display: inline;
+    float: right;
+    font-weight: bold;
+   
+    
+}
+.line{
+    margin-top: 1%;
+}
+.details{
+    margin:0%;
+    line-height: 2vh;
+   
+   
+}

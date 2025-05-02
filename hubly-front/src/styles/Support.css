@@ -1,0 +1,93 @@
+.message{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-color: #184E7F;
+    position: absolute;
+    bottom:2px;
+    right:10px;
+    
+}
+.message-icon{
+    position: relative;
+    top: 20px;
+    left:15px;
+
+}
+.message-body{
+    width:25vw;
+    height:66vh;
+    max-height: 70%;
+    scroll-behavior: auto;
+   
+    position: absolute;
+    bottom:10vh;
+    right:6vw;
+    background-color: #EEEEEE;
+    overflow-y: auto;
+}
+.message-body::-webkit-scrollbar {
+    width: 6px;
+  }
+  .message-body::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+.chatheaders{
+    margin: 0px;
+    height:7vh;
+    width:inherit;
+    background-color: #33475B;
+    position: fixed;
+}
+.chatheaders>span{
+    line-height: 7vh;
+    margin-left: 35px;
+    color:white;
+}
+.chatheaders>img{
+    position: relative;
+    top:1vh;
+    left:1vw;
+}
+.user-msg{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 70%;
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    align-self: flex-end;
+    
+}
+.support-msg{
+   
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        max-width: 70%;
+        word-wrap: break-word;
+        display: flex;
+        align-items: center;
+    background-color: #e0e0e0;
+    color: #000;
+    align-self: flex-start;
+}
+.user-info{
+    height:35vh;
+    width:22vw;
+    background-color: white;
+    margin:10vh 1vw;
+    border-radius: 20px;
+    padding-left:10px;
+
+}
+.sendchat{
+    color:grey;
+    position:fixed;
+    bottom:7vh;
+    right:7vw;
+    cursor: pointer;
+}

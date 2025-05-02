@@ -1,0 +1,90 @@
+.firstpart{
+    width:20vw;
+    height: 100vh;
+    float:left;
+    border-right: 1px solid black;
+   
+
+}   
+.chattopic{
+    width:2.8vw;
+    margin-top: 10vh;
+   
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
+}
+.selectedchat{
+    margin-top: 1vh;
+    margin-right:1vw;
+    border:1px solid none;
+    border-radius: 40px;
+    background-color: #EFEFEF;
+    padding: 0.3vh 0vw;
+}
+.chatheader{
+    margin:1vh 1vw;
+    color: #5E9BD5;
+}
+.msg{
+    margin:1vh 1vw;
+}
+.secondpart{
+    width:45vw;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+.headingll{
+    width:inherit;
+    height: 5vh;
+    border-bottom: 1px solid black;
+    
+    
+}
+.chatheading
+{
+    margin:0.7vh 1.4vw;
+    position: fixed;
+    top:10px;
+    border-bottom: 1px ;
+
+}
+.sendinput{
+    position: absolute;
+    bottom: 0vh;
+    width: 42vw;
+    margin: 0px;
+    text-align: left;
+    left: 28vw;
+    height: 15vh;
+    border-radius: 10px;
+    padding:1vh 1vw;
+   
+}
+.thirdpart{
+    width:25vw;
+}
+.details{
+    margin:10px 5px;
+}
+.detail{
+    width: 23.5vw;
+    height:3vh;    
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:3px 20px;
+    margin: 5px 0px;
+    line-height: 3vh;
+}
+
+.sendbtn{
+   position: absolute;
+   width:3vw;
+   height:4vh;
+   border:none;
+   background-color: white;
+   color:grey;
+   bottom: 8vh;
+    left: 69vw;
+   
+   
+}

@@ -1,0 +1,35 @@
+.navbar{
+    height: 10vh;
+    width:100vw;
+    
+}
+.title{
+    font-size:30px;
+    font-weight: 540;
+    color:#184E7F;
+    position: relative;
+    bottom: 1.5vh;
+
+}
+.login{
+  position: relative;
+    bottom: 1.5vh;
+    left: 63vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup{
+    display: inline-block;
+    position: relative;
+    bottom: 1.5vh;
+    left: 75vw;
+    font-size: 20px;
+    height:6vh;
+    width:6vw;
+   line-height: 6vh;
+   text-align: center;
+    background-color: #184E7F;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
