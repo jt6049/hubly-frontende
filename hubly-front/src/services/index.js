@@ -116,3 +116,16 @@ export async function complainer({ data }) {
     });
     return response;
   };
+
+
+  export async function assignChat(chatRoomId, userId) {
+    const response= await fetch(`${API_URL}/message/assignChat`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `${localStorage.getItem("token")}`
+      },
+      body: JSON.stringify( {chatRoomId,userId} )
+    });
+    return response;
+  };

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Login from "./Pages/Login"; 
+import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Support from "./Pages/Support";
 import Dashboard from "./Pages/Dashboard";
@@ -11,18 +11,18 @@ import Team from "./Pages/Team";
 import Settings from "./Pages/Settings";
 import Sidebar from "./Components/Sidebar";
 import LandingPage from "./Pages/LandingPage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-       
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/support" element={<Support />} />
         <Route path="/" element={<LandingPage />} />
 
-      
         <Route
           path="/*"
           element={
@@ -42,6 +42,7 @@ function App() {
           }
         />
       </Routes>
+      <ToastContainer position="top-right" autoClose={3000} />
     </BrowserRouter>
   );
 }
